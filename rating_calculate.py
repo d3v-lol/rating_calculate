@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#coding:utf8
+#-*-coding:utf8-*-
 
 from math import sqrt
 
@@ -39,5 +39,5 @@ def calculate_rating(_sum_rating, _count_rating, _range):
 #example run
 
 if __name__ == '__main__':
-	print calculate_rating(435, 100,[1,5])
+	print calculate_rating(435, 100, [1,5])
 
